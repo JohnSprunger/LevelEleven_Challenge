@@ -17,7 +17,7 @@ test('hello() (world) is a balanced bracket', () => {
 });
 
 test('c[] reverse(c[] input) { ; } is a balanced bracket', () => {
-    expect(bracketBuster("")).toBe(true);
+    expect(bracketBuster("c[] reverse(c[] input) { ; }")).toBe(true);
 });
 
 test('[{]} is an ubalanced bracket', () => {
